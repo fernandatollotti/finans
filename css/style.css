@@ -1,0 +1,25 @@
+#hero {
+    background: #FFC107;
+    color: #fff;
+}
+
+.box {
+    padding: 90px 30px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+footer p a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 750px) {
+   nav ul li a .ms-4 {
+       margin-left: 0;
+   }
+
+   footer p a {
+       display: block;
+       text-align: center;
+   }
+}
